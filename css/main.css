@@ -17,6 +17,10 @@ li {
 @font-face {
   font-family: 'Bebas';
   src: url("../font/bebas___-webfont.woff"); }
+.navbar-header .navbar-toggle {
+  background: #F1AE9D; }
+  .navbar-header .navbar-toggle span {
+    border: solid 1px #fff; }
 .navbar-header a {
   padding: 10px 15px 0 15px;
   color: #EA6636; }
@@ -116,6 +120,17 @@ li {
         color: #EA6636;
         line-height: 50%; }
 
+.cuerpo h4 {
+  font-family: "Bebas" !important;
+  line-height: 180%;
+  color: #EA6636; }
+.cuerpo h6 {
+  font-family: "Bebas" !important;
+  line-height: 180%;
+  color: #EA6636; }
+.cuerpo .row .date {
+  margin: 40px 0 0 0;
+  color: #9D9D9D; }
 .cuerpo .row .barragrande {
   background: url(../images/post_border_bg.png);
   background-repeat: repeat;
@@ -123,13 +138,47 @@ li {
   height: 20px;
   margin: 14px 0; }
 .cuerpo .row .col-md-9 {
-  padding: 30px 30px 20px 10px; }
+  padding: 30px 30px 0 10px; }
+  .cuerpo .row .col-md-9 .bloques {
+    padding: 20px 0; }
+    .cuerpo .row .col-md-9 .bloques span {
+      margin-right: 10px;
+      padding: 10px 15px;
+      background: #EA6636;
+      color: #fff;
+      font-family: "Bebas"; }
   .cuerpo .row .col-md-9 .ico-no {
-    background-image: url(../images/icon1.png);
     width: 80px;
     height: 80px;
     position: absolute;
-    left: -80px; }
+    left: -80px;
+    background-image: url(../images/icon1.png); }
+  .cuerpo .row .col-md-9 .ico-no2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -80px;
+    background-image: url(../images/icon2.png); }
+  .cuerpo .row .col-md-9 .ico-no3 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -80px;
+    background-image: url(../images/icon3.png); }
+  .cuerpo .row .col-md-9 .ico-no4 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -80px;
+    background-image: url(../images/icon4.png);
+    margin: 50px 0 0 0; }
+  .cuerpo .row .col-md-9 .ico-no5 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -80px;
+    background-image: url(../images/icon5.png);
+    margin: 50px 0 0 0; }
   .cuerpo .row .col-md-9 .imagen {
     margin-right: 25px;
     width: 100%; }
@@ -146,6 +195,52 @@ li {
         font-size: 40px;
         color: #EA6636;
         line-height: 50%; }
+.cuerpo .row .col-md-12 {
+  padding: 70px 40px; }
+  .cuerpo .row .col-md-12 .quote {
+    background: url(../images/quote.png) no-repeat scroll left top;
+    float: left;
+    width: 40px;
+    height: 30px; }
+
+.contac {
+  padding: 40px 0; }
+  .contac .col-md-4 {
+    padding-right: 0px; }
+    .contac .col-md-4 span {
+      color: #EA6636; }
+  .contac .col-md-8 {
+    font-family: "Bebas"; }
+    .contac .col-md-8 .cf_txt {
+      border: 1px solid #EA6636;
+      height: 40px;
+      width: 60%;
+      outline: none; }
+    .contac .col-md-8 .cf_email {
+      height: 40px;
+      width: 63%;
+      border: 1px solid #EA6636;
+      outline: none; }
+    .contac .col-md-8 .cf_msg {
+      width: 90%;
+      border: 1px solid #EA6636;
+      height: 200px;
+      overflow: auto;
+      outline: none; }
+    .contac .col-md-8 .cf_submit {
+      background: none repeat scroll 0 0 #E8663C;
+      border: medium none;
+      color: #FFFFFF;
+      font-family: bebasregular;
+      font-size: 23px;
+      /* height: 45px; */
+      outline: medium none;
+      width: 90%;
+      font-family: "Bebas"; }
+    .contac .col-md-8 .cf_submit:hover {
+      background: #fff;
+      color: #EA6636;
+      border: 1px solid #EA6636; }
 
 .main_content_area {
   padding: 0 10px; }
@@ -204,5 +299,37 @@ li {
       font-family: "Bebas" !important;
       line-height: 180%;
       color: #EA6636; }
+
+.categoria {
+  padding: 30px 10px 30px 10px; }
+  .categoria .cat {
+    font-family: "Bebas" !important;
+    float: left;
+    padding-right: 20px; }
+  .categoria ul li a {
+    font-family: "Bebas";
+    color: #9D9D9D;
+    float: left;
+    padding: 10px 1.5%; }
+  .categoria ul li a:hover {
+    background-color: #EA6636;
+    color: #fff; }
+
+.portafolio .col-md-3 {
+  padding: 25px 10px; }
+  .portafolio .col-md-3 img {
+    width: 100%; }
+  .portafolio .col-md-3 .caja {
+    border: 1px solid #DDDDDD;
+    padding: 0 10px; }
+  .portafolio .col-md-3 h4 {
+    font-family: "Bebas" !important;
+    color: #9D9D9D;
+    line-height: 130%; }
+  .portafolio .col-md-3 h6 {
+    font-family: "Bebas" !important;
+    color: #EA6636;
+    line-height: 100%;
+    padding-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */

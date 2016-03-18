@@ -21,3 +21,10 @@ button{
 	line-height: 180%;
 	color: $plomo;
 }
+
+@mixin icono(){
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: -80px;
+}

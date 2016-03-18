@@ -4,6 +4,12 @@
 }
 
 .navbar-header{
+	.navbar-toggle{
+		background:$rosa;
+		span{
+			border: solid 1px $blanco;
+		}
+	}
 	a{
 		padding: 10px 15px 0 15px;
 		color: $naranja;

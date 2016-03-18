@@ -1,5 +1,23 @@
 .cuerpo{
+
+	h4{
+		font-family: $bebas !important;
+		line-height: 180%;
+		color: $naranja;
+	}
+
+	h6{
+		font-family: $bebas !important;
+		line-height: 180%;
+		color: $naranja;
+	}
+
 	.row{
+
+		.date{
+		margin: 40px 0 0 0;
+			color: $plomo;
+		}
 
 		.barragrande{
 				background: url(../images/post_border_bg.png);
@@ -10,14 +28,44 @@
 			}
 
 		.col-md-9{
-			padding: 30px 30px 20px 10px;
+			padding: 30px 30px 0 10px;
+
+			.bloques{
+				padding: 20px 0;
+				span{
+					margin-right: 10px;
+					padding:10px 15px;
+					background: $naranja;
+					color: $blanco;
+					font-family: $bebas;
+				}
+			}
 			
 			.ico-no{
-				background-image: url(../images/icon1.png);
-				width: 80px;
-				height: 80px;
-				position: absolute;
-				left: -80px;
+				@include icono;
+				background-image: url(../images/icon1.png);				
+			}
+
+			.ico-no2{
+				@include icono;
+				background-image: url(../images/icon2.png);				
+			}	
+
+			.ico-no3{
+				@include icono;
+				background-image: url(../images/icon3.png);				
+			}	
+
+			.ico-no4{
+				@include icono;
+				background-image: url(../images/icon4.png);	
+				margin: 50px 0 0 0; 			
+			}				
+
+			.ico-no5{
+				@include icono;
+				background-image: url(../images/icon5.png);	
+				margin: 50px 0 0 0; 			
 			}
 
 			.imagen{
@@ -43,6 +91,16 @@
    					}
 				}
 			}	
+		}
+
+		.col-md-12{
+			padding: 70px 40px;
+			.quote{
+				background: url(../images/quote.png) no-repeat scroll left top;
+				float: left;
+				width: 40px;
+				height: 30px;
+		}
 		}
 	}
 }

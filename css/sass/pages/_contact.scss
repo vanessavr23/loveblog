@@ -1,0 +1,52 @@
+.contac{
+	padding: 40px 0;
+	.col-md-4{
+		padding-right:0px; 
+		span{
+			color: $naranja;
+		}
+	}
+	.col-md-8{
+		font-family:$bebas;
+		
+		.cf_txt {
+			border: 1px solid $naranja;
+			height: 40px;
+			width: 60%;
+			outline: none;
+		}
+		.cf_email {
+    		height: 40px;
+    		width: 63%;
+    		border: 1px solid $naranja;
+    		outline: none;
+		}
+
+		.cf_msg {
+			width: 90%;
+    		border: 1px solid $naranja;
+    		height: 200px;
+    		overflow: auto;
+    		outline: none;
+		}
+
+		.cf_submit {
+    		background: none repeat scroll 0 0 #E8663C;
+    		border: medium none;
+    		color: #FFFFFF;
+    		font-family: bebasregular;
+    		font-size: 23px;
+    		/* height: 45px; */
+    		outline: medium none;
+    		width: 90%;
+    		font-family: $bebas;		
+    	}
+
+		.cf_submit:hover{
+			background: $blanco;
+			color: $naranja;
+			border: 1px solid $naranja;
+		}
+	}
+
+}

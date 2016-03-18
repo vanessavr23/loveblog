@@ -1,0 +1,48 @@
+.categoria{
+	padding: 30px 10px 30px 10px;
+	.cat{
+		font-family: $bebas !important;
+		float: left;
+		padding-right: 20px;
+	}
+	ul{
+		li{
+			a{
+				font-family: $bebas;
+				color: $plomo;
+				float: left;
+				padding: 10px 1.5%;
+			}
+			a:hover{
+				background-color: $naranja;
+				color: $blanco;
+			}
+		}
+	}
+}
+
+.portafolio{
+	.col-md-3{
+		padding: 25px 10px;
+		img{
+		width: 100%;
+		}
+		.caja{
+		border: 1px solid #DDDDDD;
+		padding: 0 10px;
+		}
+
+		h4{
+			font-family: $bebas !important;
+			color: $plomo;
+			line-height: 130%;
+		}
+
+		h6{
+			font-family: $bebas !important;
+			color: $naranja;
+			line-height: 100%;
+			padding-bottom: 20px;
+		}
+	}
+}
