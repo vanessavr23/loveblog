@@ -1,0 +1,48 @@
+.cuerpo{
+	.row{
+
+		.barragrande{
+				background: url(../images/post_border_bg.png);
+				background-repeat: repeat;
+				background-size: 3%;
+				height: 20px;
+				margin: 14px 0;
+			}
+
+		.col-md-9{
+			padding: 30px 30px 20px 10px;
+			
+			.ico-no{
+				background-image: url(../images/icon1.png);
+				width: 80px;
+				height: 80px;
+				position: absolute;
+				left: -80px;
+			}
+
+			.imagen{
+				margin-right: 25px;
+				width: 100%;
+			}
+
+			.margen{
+				padding: 20px 0;
+			}
+
+			.post_quote{
+				padding: 30px;
+				p{
+					border-left: 10px solid $naranja;
+   					padding-left: 15px;
+   					position: relative;
+   					top: 10px;
+   					span{
+   						font-size: 40px;
+   						color: $naranja;
+   						line-height: 50%;
+   					}
+				}
+			}	
+		}
+	}
+}

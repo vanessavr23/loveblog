@@ -1,0 +1,29 @@
+.footer_area{
+	margin-top: 40px;
+	background: $rosa;
+	.container{
+		border-right: 10px solid $blanco;
+		border-left: 10px solid $blanco;
+		background: $naranja;
+		color: $blanco;
+		padding-bottom: 30px;
+		h2{
+			margin: 0;
+			font-family: $bebas !important;
+			padding: 40px 0 15px 0;
+		}
+
+		p{
+			font-size: 16px;
+			padding-right: 15%;
+		}
+
+		.social_area{
+			a{
+				display: inline-block;
+				text-indent: -99999px;
+			}
+		}
+	}
+}
+

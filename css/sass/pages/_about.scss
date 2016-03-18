@@ -1,0 +1,31 @@
+.cuerpo{
+	.row{
+		.col-md-9{
+			padding: 30px 30px 20px 10px;
+
+			.img-age{
+				float: left;
+				margin-right: 25px;
+			}
+
+			.margen{
+				padding: 20px 0;
+			}
+
+			.post_quote{
+				padding: 30px;
+				p{
+					border-left: 10px solid $naranja;
+   					padding-left: 15px;
+   					position: relative;
+   					top: 10px;
+   					span{
+   						font-size: 40px;
+   						color: $naranja;
+   						line-height: 50%;
+   					}
+				}
+			}	
+		}
+	}
+}

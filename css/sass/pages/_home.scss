@@ -1,0 +1,96 @@
+
+.main_content_area{
+	padding: 0 10px;
+	.slider{
+		width: 100%;
+		position: relative;
+		bottom: 50px;
+		margin-bottom: -20px;
+	}
+	.structure{
+		.service_area{
+			.row{
+				.portfolio1{
+					width: 60px;
+					position: relative;
+					top: 10px;
+				}
+				h4{
+					font-family: $bebas !important;
+					line-height: 180%;
+					color: $naranja;
+				}
+			}
+		}
+		.from_blog{
+			padding: 40px 10px 30px 10px;
+			.row{
+				padding: 10px 0;
+				.barra{
+					background: url(../images/post_border_bg.png);
+					background-repeat: repeat;
+					background-size: 2.8%;
+					height: 20px;
+					margin: 14px 0;
+				}
+
+
+				.from{
+					font-family: $bebas !important;
+					line-height: 180%;
+					color: $naranja;
+				}
+
+				h4{
+					@include h-4;
+				}
+
+
+				h6{
+					font-family: $bebas !important;
+					line-height: 180%;
+					color: $naranja;
+				}
+			}
+		}
+		.from_works{
+			.row{
+				padding: 10px 0;
+				.barra{
+					background: url(../images/post_border_bg.png);
+					background-repeat: repeat;
+					background-size: 2.8%;
+					height: 20px;
+					margin: 14px 0;
+				}
+
+				h4{
+					@include h-4;
+				}
+
+				.from{
+					font-family: $bebas !important;
+					line-height: 180%;
+					color: $naranja;
+				}
+
+				h6{
+					font-family: $bebas !important;
+					line-height: 180%;
+					color: $naranja;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

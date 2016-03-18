@@ -1,0 +1,54 @@
+@font-face{
+	font-family: 'Bebas';
+	src: url('../font/bebas___-webfont.woff');
+}
+
+.navbar-header{
+	a{
+		padding: 10px 15px 0 15px;
+		color: $naranja;
+		span{
+			color: $rosa;
+		}
+		h1{
+			font-family: $bebas !important;
+			}
+	}
+	a:hover{
+		background: none;
+		color: $plomo;
+		font-family: $bebas;
+	}
+}
+
+.navbar-example{
+	.nav{
+		a{
+			padding: 30px 15px 0px 15px;
+			color: $plomo;
+			font-family: $bebas;
+		}
+		a:hover{
+			color: $naranja;
+			background: none;
+			font-family: $bebas;
+		}
+	}
+}
+
+.header_bottom_area{
+	background: $rosa;
+	min-height: 50px;
+	.container{
+		border-right: 10px solid $blanco;
+		border-left: 10px solid $blanco;
+		background: $naranja;
+		height: 50px;
+		color: $blanco;
+		h2{
+			margin: 0;
+			font-family: $bebas !important;
+			padding: 5px 0;
+		}
+	}
+}

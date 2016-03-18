@@ -1,0 +1,23 @@
+@mixin boton(){
+	background: $naranja;
+	border: none;
+	color: $blanco;
+	font-family: $bebas;
+	padding: 10px 15px;
+}
+
+button{
+	@include boton;
+}
+
+@mixin h_4(){
+	font-family: $bebas !important;
+	line-height: 180%;
+	color: $naranja;
+}
+
+@mixin h-4(){
+	font-family: $bebas !important;
+	line-height: 180%;
+	color: $plomo;
+}
